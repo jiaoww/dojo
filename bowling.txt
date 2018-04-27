@@ -1,0 +1,10 @@
+tasking
+TestCoding:
+ 全部全中 10min
+ 全部补中 10min
+ 全部失误 10min
+ 全中 补中 失误混合20min
+
+ Games Coding:
+ roll  20min
+ score 30min
