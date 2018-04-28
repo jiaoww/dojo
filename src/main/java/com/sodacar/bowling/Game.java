@@ -3,7 +3,7 @@ package com.sodacar.bowling;
 /**
  * Created by evin on 2018/4/27.
  */
-public class Games {
+public class Game {
     private int[][] scores = new int[10][3];
 
     private int frame = 0;
