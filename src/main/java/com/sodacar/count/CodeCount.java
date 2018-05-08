@@ -25,9 +25,9 @@ public class CodeCount {
                 line = line.trim();
                 if ("".equals(line)) {
                     blankLines++;
-                } else if (line.startsWith("package")){
+                } else if (line.startsWith("package")) {
                     continue;
-                }else if (line.startsWith("import")) {
+                } else if (line.startsWith("import")) {
                     importLines++;
                 } else if (line.startsWith("/*") && line.endsWith("*/")) {
                     commentLines++;
@@ -36,7 +36,7 @@ public class CodeCount {
                 } else if (line.startsWith("/*") && flag) {
                     commentLines++;
                     flag = !flag;
-                } else if ((line.endsWith("*/")||line.contains("//")) && !flag) {
+                } else if (line.contains("*/") && !flag) {
                     commentLines++;
                     flag = !flag;
                 } else if (!flag) {
