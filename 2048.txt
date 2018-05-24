@@ -1,0 +1,39 @@
+task:
+
+test Coding:
+
+随机生成2或者4 Test 3min
+
+向左滑动Test  10min
+    无合并项
+    一个合并项
+    多个合并项
+
+向右滑动Test 10min
+    无合并项
+    一个合并项
+    多个合并项
+向上滑动Test 10min
+    无合并项
+    一个合并项
+    多个合并项
+向下滑动Test 10min
+    无合并项
+    一个合并项
+    多个合并项
+Game over判断 10min
+
+逻辑实现：
+
+随机生成2或者4 Test 5min
+
+向左滑动Test  40min
+
+向右滑动Test 20min
+
+向上滑动Test 20min
+
+向下滑动Test 20min
+
+Game over判断 20min
+
